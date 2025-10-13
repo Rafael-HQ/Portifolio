@@ -116,7 +116,7 @@ export const CardDescription = ({
   );
 };
 
-// ✨ Novo componente indicando link clicável
+
 export const CardLink = () => {
   return (
     <div className="mt-8 flex items-center gap-2 text-blue-400 text-sm font-medium opacity-80 group-hover:opacity-100 transition">

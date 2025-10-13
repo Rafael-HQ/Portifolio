@@ -1,4 +1,15 @@
 @import "tailwindcss";
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
 
 html {
   scroll-behavior: smooth;
@@ -6,7 +17,6 @@ html {
 .headerContainer {
   width: 100%;
   margin: 0 auto;
-  padding: 0 2rem;
   position: relative;
   overflow: hidden;
 }

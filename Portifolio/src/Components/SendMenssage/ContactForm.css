@@ -1,13 +1,20 @@
-/* ContactForm.css */
+*{
+  padding: 0;
+  margin: 0;
+}
+
 .contact-container {
   position: relative;
   min-height: 100vh;
+  height: 100%; 
+  width: 100%; 
   background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  padding: 0 1rem;
+  padding: 0;
+  margin: 0;
 }
 
 .contact-gradient {
@@ -33,6 +40,7 @@
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
   color: white;
   z-index: 10;
+  margin: 2rem; 
 }
 
 .contact-title {
@@ -133,7 +141,6 @@
   color: #f87171;
 }
 
-/* Animações suaves */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -149,7 +156,6 @@
   animation: fadeIn 0.6s ease-out;
 }
 
-/* Responsividade */
 @media (max-width: 640px) {
   .contact-form-container {
     padding: 1.5rem;
