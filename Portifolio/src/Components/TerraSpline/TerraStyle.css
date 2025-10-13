@@ -1,0 +1,14 @@
+.spline-container {
+  position: absolute;
+  top: 0;
+  right: -20%;
+  scale: 1.5;
+}
+
+@media (max-width: 768px){
+  .spline-container{
+    scale: 0.6;
+    right: 1%;
+    top: -30%;
+  }
+}
