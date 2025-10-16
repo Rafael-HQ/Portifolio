@@ -92,8 +92,8 @@ const dummyContent = [
       <>
         <p>
           Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na PUC Minas.
-          Estudar ADS tem sido uma experiência incrível, o ambiente é inspirador e o curso me desafia a pensar de forma lógica,
-          criativa e prática ao mesmo tempo.
+          Estudar ADS tem sido uma experiência incrível,  o curso me desafia a pensar de forma lógica,
+          criativa e prática ao mesmo tempo com projetos reais.
         </p>
         <br />
         <p>
